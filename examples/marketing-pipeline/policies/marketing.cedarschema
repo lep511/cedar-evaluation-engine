@@ -1,0 +1,3 @@
+entity MarketingTeam;
+entity UserDataField;
+action "access" appliesTo { principal: MarketingTeam, resource: UserDataField };
